@@ -5,13 +5,13 @@ import { SearchBox } from "../components/SearchBox";
 import { TagGroup } from "../components/TagGroup";
 import { contents } from "../contents/Contents";
 import { IPostCardModel } from "../models/ContentModel";
-import { Services } from "../services/Services";
+import { PostServices } from "../services/Services";
 
-interface ITherapiesProps {
+interface IPostsProps {
   pathName: (path: string) => void;
 }
 
-export const Therapies: React.FC<ITherapiesProps> = ({ pathName }) => {
+export const Posts: React.FC<IPostsProps> = ({ pathName }) => {
   const [query, setQuery] = React.useState<string>("");
   const [selectedTags, setSelectedTags] = React.useState<string[]>([]);
   const [shownPost, setShownPost] = React.useState<IPostCardModel[]>([]);
@@ -19,7 +19,7 @@ export const Therapies: React.FC<ITherapiesProps> = ({ pathName }) => {
   const navigate = useNavigate();
 
   const uniqueTags: string[] = React.useMemo(
-    () => Services.findUniqueTags(),
+    () => PostServices.findUniqueTags(),
     []
   );
 
@@ -31,6 +31,7 @@ export const Therapies: React.FC<ITherapiesProps> = ({ pathName }) => {
           title: content.mainTitle,
           tags: content.tags,
           pathName: content.pathName,
+          featuredPost: true,
         };
       }),
     []
@@ -57,7 +58,7 @@ export const Therapies: React.FC<ITherapiesProps> = ({ pathName }) => {
   }, [query, selectedTags, allPosts]);
 
   return (
-    <div className="therapies-container">
+    <div className="posts-container">
       <div className="title">Terapi Çeşitleri</div>
       <SearchBox query={setQuery} />
       <TagGroup selectedTags={setSelectedTags} tags={uniqueTags} />

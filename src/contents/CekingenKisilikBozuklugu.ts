@@ -14,4 +14,5 @@ export const CekingenKisilikBozuklugu: IContentModel = {
   tags: ["KİŞİLİK BOZUKLUĞU", "ÇEKİNGEN KİŞİLİK BOZUKLUĞU"],
   lastUpdateDate: new Date("14 Mar 2023"),
   pathName: "cekingen-kisilik-bozuklugu",
+  featuredPost: true,
 };

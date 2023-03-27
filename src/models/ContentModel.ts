@@ -5,6 +5,7 @@ export interface IContentModel {
   subContent?: ISubContent[];
   lastUpdateDate: Date;
   pathName: string;
+  featuredPost: boolean;
 }
 
 export interface ISubContent {
@@ -17,4 +18,5 @@ export interface IPostCardModel {
   title: string;
   tags: string[];
   pathName: string;
+  featuredPost: boolean;
 }

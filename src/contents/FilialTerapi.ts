@@ -68,4 +68,5 @@ export const FilialTerapi: IContentModel = {
   ],
   lastUpdateDate: new Date("14 Mar 2023"),
   pathName: "filial-terapi",
+  featuredPost: true,
 };

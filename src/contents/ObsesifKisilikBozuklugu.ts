@@ -14,4 +14,5 @@ export const ObsesifKisilikBozuklugu: IContentModel = {
   tags: ["KİŞİLİK BOZUKLUĞU", "OBSESİF KİŞİLİK BOZUKLUĞU"],
   lastUpdateDate: new Date("14 Mar 2023"),
   pathName: "obsesif-kisilik-bozuklugu",
+  featuredPost: true,
 };

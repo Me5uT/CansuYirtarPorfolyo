@@ -3,9 +3,11 @@ import { Route, Routes } from "react-router-dom";
 import { IContentModel } from "../models/ContentModel";
 import { About } from "../pages/About";
 import { Home } from "../pages/Home";
-import { Therapies } from "../pages/Therapies";
-import { TherapyDetail } from "../pages/TherapyDetail";
-import { Services } from "../services/Services";
+import { Posts } from "../pages/Posts";
+import { TherapyDetail } from "../pages/PostDetail";
+import { PostServices } from "../services/Services";
+import { Contact } from "../pages/Contact";
+import { Services } from "../pages/Services";
 
 interface ILayoutProps {}
 
@@ -14,7 +16,7 @@ export const Layout: React.FC<ILayoutProps> = () => {
   const [therapy, setTherapy] = React.useState<IContentModel>();
 
   React.useEffect(() => {
-    const content = Services.findTherapyByPath(path);
+    const content = PostServices.findTherapyByPath(path);
 
     setTherapy(content);
   }, [path]);
@@ -22,15 +24,13 @@ export const Layout: React.FC<ILayoutProps> = () => {
   return (
     <Routes>
       <Route path="/" element={<Home />} />
+      <Route index path="posts" element={<Posts pathName={setPath} />} />
       <Route
-        index
-        path="therapies"
-        element={<Therapies pathName={setPath} />}
-      />
-      <Route
-        path={`therapies/${path}`}
+        path={`posts/${path}`}
         element={<TherapyDetail therapy={therapy} />}
       />
+      <Route path="services" element={<Services />} />
+      <Route path="contact" element={<Contact />} />
       <Route path="about" element={<About />} />
     </Routes>
   );

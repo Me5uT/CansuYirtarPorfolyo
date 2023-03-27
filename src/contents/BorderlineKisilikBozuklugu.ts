@@ -7,4 +7,5 @@ export const BorderlineKisilikBozuklugu: IContentModel = {
   tags: ["KİŞİLİK BOZUKLUĞU", "BORDERLİNE KİŞİLİK BOZUKLUĞU"],
   lastUpdateDate: new Date("14 Mar 2023"),
   pathName: "borderline-kisilik-bozuklugu",
+  featuredPost: true,
 };

@@ -7,4 +7,5 @@ export const BagimliKisilikBozuklugu: IContentModel = {
   tags: ["KİŞİLİK BOZUKLUĞU", "BAĞIMLI KİŞİLİK BOZUKLUĞU"],
   lastUpdateDate: new Date("14 Mar 2023"),
   pathName: "bagimli-kisilik-bozuklugu",
+  featuredPost: true,
 };

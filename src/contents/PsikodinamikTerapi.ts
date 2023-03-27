@@ -26,4 +26,5 @@ export const PsikodinamikTerapi: IContentModel = {
   ],
   lastUpdateDate: new Date("14 Mar 2023"),
   pathName: "psikodinamik-terapi",
+  featuredPost: true,
 };

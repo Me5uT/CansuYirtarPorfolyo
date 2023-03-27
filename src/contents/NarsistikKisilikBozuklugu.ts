@@ -14,4 +14,5 @@ export const NarsistikKisilikBozuklugu: IContentModel = {
   tags: ["KİŞİLİK BOZUKLUĞU", "NARSİSTİK KİŞİLİK BOZUKLUĞU"],
   lastUpdateDate: new Date("14 Mar 2023"),
   pathName: "narsistik-kisilik-bozuklugu",
+  featuredPost: true,
 };

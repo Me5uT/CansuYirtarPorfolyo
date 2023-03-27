@@ -1,4 +1,5 @@
 import { IContentModel } from "./../models/ContentModel";
+import { HomeContent } from "./Anasayfa";
 import { AntiSosyalKisilikBozuklugu } from "./AntisosyalKisilikBozuklugu";
 import { BagimliKisilikBozuklugu } from "./BagimliKisilikBozuklugu";
 import { BorderlineKisilikBozuklugu } from "./BorderlineKisilikBozuklugu";

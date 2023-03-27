@@ -57,4 +57,5 @@ export const CocukMerkezliOyunTerapisi: IContentModel = {
   ],
   lastUpdateDate: new Date("14 Mar 2023"),
   pathName: "cocuk-merkezli-oyun-terapisi",
+  featuredPost: true,
 };

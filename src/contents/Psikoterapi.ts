@@ -10,4 +10,5 @@ export const PsikoTerapi: IContentModel = {
   tags: ["PSİKOTERAPİİ"],
   lastUpdateDate: new Date("14 Mar 2023"),
   pathName: "psikoterapi",
+  featuredPost: true,
 };

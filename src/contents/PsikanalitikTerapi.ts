@@ -16,4 +16,5 @@ export const PsikanalitikTerapi: IContentModel = {
   ],
   lastUpdateDate: new Date("14 Mar 2023"),
   pathName: "psikanalitik-terapi",
+  featuredPost: true,
 };

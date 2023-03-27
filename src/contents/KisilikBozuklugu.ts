@@ -42,4 +42,5 @@ export const KisilikBozuklugu: IContentModel = {
   ],
   lastUpdateDate: new Date("14 Mar 2023"),
   pathName: "kisilik-bozuklugu",
+  featuredPost: true,
 };

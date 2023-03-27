@@ -28,4 +28,5 @@ export const OnlineTerapiUygunluk: IContentModel = {
   tags: ["TERAPİ", "ONLİNE TERAPİ"],
   lastUpdateDate: new Date("14 Mar 2023"),
   pathName: "online-terapi-uygunluk",
+  featuredPost: true,
 };

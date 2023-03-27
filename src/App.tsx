@@ -10,7 +10,9 @@ export const App: React.FC<IAppProps> = () => {
     <div className="container">
       <div className="main-content">
         <Navbar />
-        <Layout />
+        <main>
+          <Layout />
+        </main>
       </div>
       <div className="footer-container">
         <Footer />

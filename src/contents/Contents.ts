@@ -10,7 +10,6 @@ import { KisilikBozuklugu } from "./KisilikBozuklugu";
 import { NarsistikKisilikBozuklugu } from "./NarsistikKisilikBozuklugu";
 import { ObsesifKisilikBozuklugu } from "./ObsesifKisilikBozuklugu";
 import { OnlineTerapi } from "./OnlineTerapi";
-import { OnlineTerapiUygunluk } from "./OnlineTerapiUygunluk";
 import { ParanoidKisilikBozuklugu } from "./ParanoidKisilikBozuklugu";
 import { PsikanalitikTerapi } from "./PsikanalitikTerapi";
 import { PsikoTerapi } from "./Psikoterapi";
@@ -27,7 +26,6 @@ export const contents: IContentModel[] = [
   KisilikBozuklugu,
   NarsistikKisilikBozuklugu,
   ObsesifKisilikBozuklugu,
-  OnlineTerapiUygunluk,
   OnlineTerapi,
   PsikanalitikTerapi,
   PsikoTerapi,

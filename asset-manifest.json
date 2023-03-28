@@ -1,17 +1,17 @@
 {
   "files": {
-    "main.css": "/cansuyirtar/static/css/main.5fc70642.css",
-    "main.js": "/cansuyirtar/static/js/main.aa57f763.js",
-    "static/js/787.28cb0dcd.chunk.js": "/cansuyirtar/static/js/787.28cb0dcd.chunk.js",
-    "static/media/font.woff": "/cansuyirtar/static/media/font.08335e444e0911ea302e.woff",
-    "static/media/font.woff2": "/cansuyirtar/static/media/font.22f7fe3168aecb357ba6.woff2",
-    "index.html": "/cansuyirtar/index.html",
-    "main.5fc70642.css.map": "/cansuyirtar/static/css/main.5fc70642.css.map",
-    "main.aa57f763.js.map": "/cansuyirtar/static/js/main.aa57f763.js.map",
-    "787.28cb0dcd.chunk.js.map": "/cansuyirtar/static/js/787.28cb0dcd.chunk.js.map"
+    "main.css": "/CansuYirtarPorfolyo/static/css/main.34854313.css",
+    "main.js": "/CansuYirtarPorfolyo/static/js/main.5e01e6f8.js",
+    "static/js/787.28cb0dcd.chunk.js": "/CansuYirtarPorfolyo/static/js/787.28cb0dcd.chunk.js",
+    "static/media/font.woff": "/CansuYirtarPorfolyo/static/media/font.08335e444e0911ea302e.woff",
+    "static/media/font.woff2": "/CansuYirtarPorfolyo/static/media/font.22f7fe3168aecb357ba6.woff2",
+    "index.html": "/CansuYirtarPorfolyo/index.html",
+    "main.34854313.css.map": "/CansuYirtarPorfolyo/static/css/main.34854313.css.map",
+    "main.5e01e6f8.js.map": "/CansuYirtarPorfolyo/static/js/main.5e01e6f8.js.map",
+    "787.28cb0dcd.chunk.js.map": "/CansuYirtarPorfolyo/static/js/787.28cb0dcd.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.5fc70642.css",
-    "static/js/main.aa57f763.js"
+    "static/css/main.34854313.css",
+    "static/js/main.5e01e6f8.js"
   ]
 }

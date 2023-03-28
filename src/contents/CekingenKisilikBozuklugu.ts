@@ -2,16 +2,15 @@ import { IContentModel } from "../models/ContentModel";
 
 export const CekingenKisilikBozuklugu: IContentModel = {
   mainTitle: "Çekingen Kişilik Bozukluğu Nedir?",
-  description: `Çekingen kişilik bozukluğu (diğer isimleri Avoidant Kişilik Bozukluğu, Kaçıngan Kişilik Bozukluğu) ilk kez 1969 yılında Theodore Millon tarafından tanımlanmıştır. Çekingen Kişilik Bozukluğuna sahip hastalar yetersizlik duygusuna sahiptir ve olumsuz değerlendirilmeye karşı aşırı hassasiyet gösterirler. Sosyal etkileşimlerden kaçınırlar. ÇKB’li bireyler kendilerini huzursuz, endişeli, yalnız olarak tanımlarlar ve genellikle istenmeyen ve diğer insanlardan dışlanmış hissederler . ÇKB genelde yetişkinlik döneminde fark edilir. Çocukluğunda duygusal olarak ihmal edilmiş ve akranları tarafından dışlanmış çocukların ÇKB olma riski daha fazladır.
+  description: ` Çekingen Kişilik Bozukluğu, kişinin aşırı çekingen ve utangaç olduğu, sosyal ortamlarda rahatsızlık hissettiği ve sosyal etkileşimlerde sınırlılık yaşadığı bir kişilik bozukluğudur. Bu bozukluk, sosyal fobi veya sosyal kaygı bozukluğu olarak da adlandırılır.
 
-      Eleştirilme korkusu ile mesleki etkinliklerden kaçınma, iletişim eksikliği, yakın ilişkilerde tutukluk.
-
-      ÇKB’nin sebebi açıkça bilinmemekle birlikte genetik, sosyal, psikolojik faktörlerin kombinasyonuyla olduğu düşünülmektedir.
-
-      Bozukluk genetik yatkınlığa bağlı olabilir. Özellikle, çocukluk ve ergenlik döneminde yaşanan çeşitli anksiyete bozuklukları, utangaçlık özellikleri de dahil olmak üzere davranışsal baskılanmanın etkisi olduğu düşünülmektedir. Çocukluk döneminde duygusal ihmal ve akranların reddi de bu bozukluğun riskini arttırmaktadır. ICD-10/F60.6
-
-      Gerilim ve endişe gibi kalıcı ve yaygın duygular; Başkalarına karşı beceriksiz, zevksiz ya da aşağıda olduğu inancı; Eleştirilme ya da reddedilme korkusuyla aşırı meşgul olmak; İnsanlara güvenme konusunda isteksizlik; Güvenlik ihtiyacı için hayatını kısıtlamak; Eleştirme, reddedilme, onaylanmama içerebilecek mesleki faaliyetlerden kaçınma.`,
-  tags: ["KİŞİLİK BOZUKLUĞU", "ÇEKİNGEN KİŞİLİK BOZUKLUĞU"],
+  Çekingen kişilik bozukluğu olan kişiler, yeni insanlarla tanışmaktan, sosyal etkinliklere katılmaktan ve konuşmaktan rahatsızlık duyabilirler. Yabancıların varlığı onları tedirgin edebilir ve çoğu zaman sessiz ve geri çekilmiş bir tutum sergilerler. Bu kişiler, kendilerine güven eksikliği yaşayabilir ve sık sık eleştirildiklerinde veya reddedildiklerinde duygusal olarak yıkılmış hissedebilirler.
+  
+  Çekingen kişilik bozukluğunun nedeni tam olarak bilinmemekle birlikte, genellikle çocukluk dönemi deneyimleri, özellikle yetersiz sosyal etkileşimlerin ve aşırı koruyucu aile ortamlarının etkisi olduğu düşünülmektedir.
+  
+  Tedavisi, genellikle psikoterapi yoluyla yapılır. Terapi, kişinin özgüvenini artırmayı, sosyal becerilerini geliştirmeyi ve rahatsızlık hissettiği sosyal etkileşimlerde daha rahat davranmayı hedefler. Bazen ilaç tedavisi de önerilebilir, ancak terapi genellikle birincil tedavi yöntemidir.
+  `,
+  tags: ["kişilik bozukluğu", "çekingen kişilik bozukluğu"],
   lastUpdateDate: new Date("14 Mar 2023"),
   pathName: "cekingen-kisilik-bozuklugu",
   featuredPost: true,

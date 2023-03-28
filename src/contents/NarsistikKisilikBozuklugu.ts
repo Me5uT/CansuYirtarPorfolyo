@@ -2,16 +2,16 @@ import { IContentModel } from "../models/ContentModel";
 
 export const NarsistikKisilikBozuklugu: IContentModel = {
   mainTitle: "Narsistik Kişilik Bozukluğu Nedir?",
-  description: `NARSİSİSTİK terimi, kişilikleri, özsaygılarını kendileri dışarıdan onay alarak sürdürme çabası etrafında örgütlenmiş kişileri tanımlar. (McWilliams)
+  description: ` Narsistik Kişilik Bozukluğu, kişinin kendisini özel, üstün, önemli ve başkalarından daha özel olarak görme eğiliminde olduğu bir kişilik bozukluğudur. Kişi genellikle hayali başarıları, güçlü yetenekleri ve kişisel cazibesi konusunda abartılı iddialar sunar.
 
-  Bizim için önemli olan kişilerin davranışlarımızı onaylamaları özsaygımızı güçlendirir; onaylamamaları ise özsaygımızı yaralar.
+  Narsistik kişilik bozukluğu olan kişiler, başkaları tarafından beğenilmek, övülmek, takdir edilmek ve özel muamele görmek isterler. Kendi ihtiyaçlarına, isteklerine ve hedeflerine aşırı önem verirler ve başkalarının bu ihtiyaçlarını ihmal edebilirler. Empati kurmakta zorluk çekebilirler ve başkalarının duygusal ihtiyaçlarını veya görüşlerini reddedebilirler.
   
-  Narsistik kişilik bozukluğu neden oluşur sorusuna verilecek belli başlı ve kesin bir cevap yoktur. Bu bozukluğun oluşmasında aile ve yetiştirilme tarzı oldukça kritiktir.
+  Bu kişiler ayrıca, başarılarının ve niteliklerinin abartılı ve gerçek dışı bir şekilde sunulması, eleştirilere karşı aşırı savunmacı bir tutum sergileme, kibirli ve benmerkezci davranışlar sergileme, başkalarının ihtiyaçlarına kayıtsız kalma ve özgüvenlerinin aşırı yüksek olması ile de bilinirler.
   
-  Aileleri tarafından sürekli övülen ve yaptığı her şey tarafından ödüllendirilen, dış dünyanın hiçbir hayal kırıklığına maruz kalmamış çocukların ilerde narsistik kişilik bozukluğuna sahip olma olasılığı fazladır. Tam tersi aileleri tarafından duygusal olarak aç bırakılan çocuklarda da bu bozukluk görülebilir.
+  Narsistik kişilik bozukluğunun nedeni tam olarak bilinmemekle birlikte, genetik, çevresel faktörler, özellikle çocukluk dönemi deneyimleri, ve kişilik gelişimi sürecindeki sorunlar etkili olabilir.
   
-  Genetik ve çevresel etmenlerin de rolü bulunmaktadır. Yaşam tarzı, hayat tecrübeleri, yetiştirilme tarzı da bu hastalığın oluşmasında etkilidir.`,
-  tags: ["KİŞİLİK BOZUKLUĞU", "NARSİSTİK KİŞİLİK BOZUKLUĞU"],
+  Tedavisi, genellikle psikoterapi yoluyla yapılır. Terapi, kişinin başkalarıyla daha sağlıklı bir şekilde ilişki kurmayı, empati kurmayı ve benmerkezci düşüncelerden kurtulmayı hedefler. Ancak, narsistik kişilik bozukluğu olan bazı insanlar terapiye ihtiyaç duymazlar veya yardım aramazlar, bu da tedaviyi zorlaştırabilir.`,
+  tags: ["kişilik bozukluğu", "narsistik kişilik bozukluğu"],
   lastUpdateDate: new Date("14 Mar 2023"),
   pathName: "narsistik-kisilik-bozuklugu",
   featuredPost: true,

@@ -10,25 +10,23 @@ export const Contact: React.FC<IContactProps> = () => {
       <h1 className="title">Benimle İletişime Geçin</h1>
 
       <div className="contact-cards">
-        <div className="contact-card">
+        <a className="contact-card" href="mailto:cansu.yirtar@gmail.com">
           <ForwardToInboxIcon />
-          <a href="mailto:">E mail</a>
-        </div>
-        <div className="contact-card">
+          <p>E mail</p>
+        </a>
+        <a
+          className="contact-card"
+          href="https://www.instagram.com/psikologcansuyirtar/"
+          target="_blank"
+          rel="noreferrer"
+        >
           <InstagramIcon />
-          <a
-            href="https://www.instagram.com/psikologcansuyirtar/"
-            target="_blank"
-            rel="noreferrer"
-          >
-            İnstagram
-          </a>
-        </div>
-        <div className="contact-card">
+          <p>İnstagram</p>
+        </a>
+        <a className="contact-card" href="tel:05534701173">
           <CallIcon />
-
-          <a href="tel:05534701173">Telefon</a>
-        </div>
+          <p>Telefon</p>
+        </a>
       </div>
     </div>
   );

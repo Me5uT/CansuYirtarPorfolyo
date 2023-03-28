@@ -1,6 +1,6 @@
 import { contents } from "../contents/Contents";
 
-export class PostServices {
+export class GeneralServices {
   static findUniqueTags() {
     const tags = contents.map((content) => content.tags).flat();
 

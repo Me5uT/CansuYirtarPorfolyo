@@ -71,6 +71,13 @@ export const Navbar: React.FC<INavbarProps> = () => {
           Bloğum
         </a>
         <a
+          href="/services"
+          className={path.pathname === "/services" ? "active" : ""}
+          title="Services"
+        >
+          Hizmetlerimiz
+        </a>
+        <a
           href="/contact/"
           className={path.pathname === "/contact" ? "active" : ""}
           title="Contact"

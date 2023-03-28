@@ -8,12 +8,9 @@ interface ISearchBoxProps {
 export const SearchBox: React.FC<ISearchBoxProps> = ({ query }) => {
   return (
     <div className="searchbar">
-      <label htmlFor="postSearch" className="visually-hidden">
-        Search for post
-      </label>
       <input
         id="postSearch"
-        placeholder="Search for posts"
+        placeholder="Bloğumda Ara ..."
         type="text"
         onChange={(v) => query(v.target.value)}
       />

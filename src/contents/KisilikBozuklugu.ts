@@ -2,44 +2,27 @@ import { IContentModel } from "../models/ContentModel";
 
 export const KisilikBozuklugu: IContentModel = {
   mainTitle: "Kişilik Bozukluğu Nedir?",
-  description: `Kendilik bozukluğu hastanın sağlıksız bir düşünme, işyeliş ve davranış tarzına sahip olduğu bir tür zihinsel bozukluktur.
+  description: ` Kişilik bozukluğu, kişinin düşünce, duygu ve davranışlarında istikrarlı ve uzun süreli bir sapma veya anormalite gösterdiği bir psikolojik durumdur. Bu sapmalar, kişinin toplumda kabul edilemeyen veya uyumsuz davranışlar sergilemesine ve sosyal, mesleki veya kişisel işlevselliklerinde bozulmaya neden olabilir.
 
-  Kişilik bozukluğu olan bir kişi durumları ve insanları algılamakta veya ilişkilendirmekte zorlanır.
+  Kişilik bozuklukları, normal kişilik varyasyonlarından farklıdır. Her insanın benzersiz bir kişilik yapısı vardır, ancak kişilik bozukluğu olan kişilerin düşünce, duygu ve davranışlarında belirgin, anormal ve istikrarlı bir sapma vardır.
   
-  Kişilik bozukluğu hastanın ilişkilerinde sosyal aktivitelerinde, iş ve okulda önemli sorunlara ve sınırlamalara neden olur.
+  Kişilik bozuklukları, genellikle erken çocukluk döneminde ortaya çıkar ve genetik ve çevresel faktörlerin karmaşık bir etkileşimi sonucu gelişebilir. Kişilik bozuklukları, tedavi edilmezse kronik bir durum haline gelebilir ve kişinin yaşam kalitesini önemli ölçüde etkileyebilir.
   
-  Kendilik bozukluklarını dijital cihazlarla ilgili bir örnek vermek gerekirse. Bilgisayarların işlemci dediğimiz bir parçası vardır. Bütün elektronik devreler birleşip işlemci sayesinde birtakım veriler işlenerek işlev görüyor. Kendilik bozukluğuna sahip olan bireylerin bu işlemcideki entegrasyondaki hatalarla özelleştirebiliriz. İşlemcisi bozuk olan bir telefonun, bilgisayarın düzgün bir işlem yapması çok da beklenemez. Kişilik bozuklukları da bireyin, kişinin sağlıksız bir düşünme, işleyiş ve davranış tarzına sahip olması durumudur.
-  
-  Bu durumda kişilik bozukluğu mevcut olan şahsın içinde bulunduğu ve yaşadığı toplumu kendi küçük çekirdek oluşumuna, ailesi, yakın arkadaşlarına sosyal cevresine algılamakta ve ilişki kurmakta bir takım İşlemsel hatalar yaptığı söylenebilir. İnsanlar ile münasebet içinde bulunduğu her türlü durumda sorun yaşayacağı anlamına gelir.`,
-  tags: ["KİŞİLİK BOZUKLUĞU"],
-  subContent: [
-    {
-      title: "Kişilik Bozukluğu Türleri",
-      description: `* Narsistik Kişilik Bozukluğu
-      * Paranoid Kişilik Bozukluğu
-      * Obsesif Kompulsif Kişilik Bozukluğu
-      * Şizotipal Kişilik Bozukluğu
-      * Antisosyal Kişilik Bozukluğu
-      * Borderline Kişilik Bozukluğu
-      * Histrionik Kişilik Bozukluğu
-      * Çekinik Kişilik Bozukluğu
-      * Bağımlı Kişilik Bozukluğu
-      * Şizoid Kişilik Bozukluğu
-      * Depresif Kişilik Bozukluğu
-      * Mazoşist Kişilik Bozukluğu`,
-    },
-    {
-      title: "Sınıflandırmalar",
-      description: `A Kümesi
-      Paranoid, şizoid, şizotipal
-      
-      B Kümesi
-      Antisosyal, narsistik, histrionik, borderline
-      
-      C Kümesi
-      Çekingen, bağımlı, obsesif kompulsif`,
-    },
-  ],
+  DSM-5 (Amerikan Psikiyatri Birliği'nin Tanısal ve İstatistiksel El Kitabı) tarafından tanımlanan 10 farklı kişilik bozukluğu vardır. Bunlar:
+
+  1-) Paranoid Kişilik Bozukluğu
+  2-) Şizoid Kişilik Bozukluğu
+  3-) Şizotipal Kişilik Bozukluğu
+  4-) Antisosyal Kişilik Bozukluğu
+  5-) Borderline Kişilik Bozukluğu
+  6-) Narsistik Kişilik Bozukluğu
+  7-) Obsesif-Kompulsif Kişilik Bozukluğu
+  8-) Bağımlı Kişilik Bozukluğu
+  9-) Çekingen Kişilik Bozukluğu
+  10-) Karmaşık veya Karışık Kişilik Bozukluğu
+
+  Her kişilik bozukluğu kendine özgü semptomlar gösterir ve farklı tedavi yöntemleri gerektirebilir. Kişilik bozuklukları, çoğu zaman tedavi edilebilir ancak tedavi süreci kişiden kişiye farklılık gösterir ve birçok faktöre bağlıdır.`,
+  tags: ["kişilik bozukluğu"],
   lastUpdateDate: new Date("14 Mar 2023"),
   pathName: "kisilik-bozuklugu",
   featuredPost: true,

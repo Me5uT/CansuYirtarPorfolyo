@@ -5,7 +5,7 @@ import { About } from "../pages/About";
 import { Home } from "../pages/Home";
 import { Posts } from "../pages/Posts";
 import { TherapyDetail } from "../pages/PostDetail";
-import { PostServices } from "../services/Services";
+import { GeneralServices } from "../services/Services";
 import { Contact } from "../pages/Contact";
 import { Services } from "../pages/Services";
 
@@ -16,7 +16,7 @@ export const Layout: React.FC<ILayoutProps> = () => {
   const [therapy, setTherapy] = React.useState<IContentModel>();
 
   React.useEffect(() => {
-    const content = PostServices.findTherapyByPath(path);
+    const content = GeneralServices.findTherapyByPath(path);
 
     setTherapy(content);
   }, [path]);

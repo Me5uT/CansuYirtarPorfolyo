@@ -1,5 +1,5 @@
 import React from "react";
-import { PostServices } from "../services/Services";
+import { GeneralServices } from "../services/Services";
 
 interface IPostCardProps {
   onClick: () => void;
@@ -18,7 +18,7 @@ export const PostCard: React.FC<IPostCardProps> = ({
     <article className="post-card">
       <span className="post-card-inner" onClick={onClick}>
         <span className="post-card-info">
-          <div>{`${PostServices.dateFormatByLocale(lastUpdateDate)}`}</div>
+          <div>{`${GeneralServices.dateFormatByLocale(lastUpdateDate)}`}</div>
         </span>
         <span className="h4 post-card-title">{title}</span>
 

@@ -5,7 +5,7 @@ import { SearchBox } from "../components/SearchBox";
 import { TagGroup } from "../components/TagGroup";
 import { contents } from "../contents/Contents";
 import { IPostCardModel } from "../models/ContentModel";
-import { PostServices } from "../services/Services";
+import { GeneralServices } from "../services/Services";
 
 interface IPostsProps {
   pathName: (path: string) => void;
@@ -19,7 +19,7 @@ export const Posts: React.FC<IPostsProps> = ({ pathName }) => {
   const navigate = useNavigate();
 
   const uniqueTags: string[] = React.useMemo(
-    () => PostServices.findUniqueTags(),
+    () => GeneralServices.findUniqueTags(),
     []
   );
 

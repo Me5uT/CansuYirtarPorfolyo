@@ -1,7 +1,7 @@
 import TwitterIcon from "@mui/icons-material/Twitter";
 import React from "react";
 import { IContentModel } from "../models/ContentModel";
-import { PostServices } from "../services/Services";
+import { GeneralServices } from "../services/Services";
 
 interface ITherapyDetailProps {
   therapy?: IContentModel;
@@ -26,9 +26,9 @@ export const TherapyDetail: React.FC<ITherapyDetailProps> = ({ therapy }) => {
       <p className="post-meta">
         <span>{therapy?.tags.map((t) => `#${t}`).join(", ")}</span>
       </p>
-      {/* <hr className="post-header-divider" /> */}
+      <hr className="post-header-divider" />
 
-      <article className="prose">{therapy?.description}</article>
+      <article className="prose"> &nbsp;{therapy?.description}</article>
 
       <hr />
       <p className="twitter-share-container">

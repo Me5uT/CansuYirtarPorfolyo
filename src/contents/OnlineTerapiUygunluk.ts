@@ -2,7 +2,7 @@ import { IContentModel } from "../models/ContentModel";
 
 export const OnlineTerapiUygunluk: IContentModel = {
   mainTitle: "Online Terapi Kimler İçin Uygundur?",
-  description: `Yüz yüze görüşmenin zorunlu olmadığı ruhsal sorunlarda Ruh sağlığı olanaklarına erişimin sınırlı olduğu kırsal ya da uzak yerlerde yaşıyorsanız.
+  description: ` Yüz yüze görüşmenin zorunlu olmadığı ruhsal sorunlarda Ruh sağlığı olanaklarına erişimin sınırlı olduğu kırsal ya da uzak yerlerde yaşıyorsanız.
 
   Programınız geleneksel terapi seansları için fazla yoğunsa. Fiziksel olarak engelli veya ciddi bir hastalıktan dolayı evden çıkamayanlar.
   
@@ -25,7 +25,7 @@ export const OnlineTerapiUygunluk: IContentModel = {
   Online terapi talep eden herkes için uygundur.
   
   https://dergipark.org.tr/tr/download/article-file/1177123`,
-  tags: ["TERAPİ", "ONLİNE TERAPİ"],
+  tags: ["terapi", "online terapi"],
   lastUpdateDate: new Date("14 Mar 2023"),
   pathName: "online-terapi-uygunluk",
   featuredPost: true,

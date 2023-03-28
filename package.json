@@ -1,7 +1,7 @@
 {
   "name": "my-app",
   "version": "0.1.0",
-  "homepage": "https://me5ut.github.io/CansuYirtarPorfolyo",
+  "homepage": "https://me5ut.github.io/CansuYirtarPorfolyo/",
   "private": true,
   "scripts": {
     "start": "react-scripts start",

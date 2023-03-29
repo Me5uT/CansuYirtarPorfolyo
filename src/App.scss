@@ -136,6 +136,10 @@ h4 {
   font-weight: normal;
   margin: 0 0 1.38rem;
 }
+h6 {
+  color: var(--body-text-color);
+  font-weight: lighter;
+}
 
 p,
 li {
@@ -471,12 +475,10 @@ code {
 }
 
 footer {
-  margin-top: 44px;
   display: flex;
   flex-direction: column;
   background-color: var(--footer-bg);
   justify-content: flex-end;
-  padding: 40px 0 20px;
 
   @media (min-width: 768px) {
     margin-top: 88px;
@@ -789,6 +791,7 @@ button.selected {
   color: var(--tag-btn-bg-hover-text);
   background: var(--tag-btn-bg-hover);
 }
+
 a {
   text-decoration: none;
   color: var(--body-text-color);
@@ -926,4 +929,27 @@ p {
 }
 .service-card-title * {
   margin: 0 10px;
+}
+
+.muiBtn {
+  color: var(--body-text-color) !important;
+  font-family: var(--font-family-light) !important;
+  font-size: var(--small-text) !important;
+  transition: color 0.1s ease-in-out, background-color 0.08s ease-in-out !important;
+
+  &:hover {
+    cursor: pointer !important;
+    color: var(--tag-btn-bg-hover-text) !important;
+    background: var(--tag-btn-bg-hover) !important;
+  }
+}
+
+.muiBtn.selected {
+  color: var(--tag-btn-bg-hover-text) !important;
+  background: var(--tag-btn-bg-hover) !important;
+}
+
+.MuiMenu-paper ul {
+  gap: 0;
+  background-color: var(--footer-bg);
 }

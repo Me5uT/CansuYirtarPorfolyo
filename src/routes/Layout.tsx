@@ -24,14 +24,14 @@ export const Layout: React.FC<ILayoutProps> = () => {
   return (
     <Routes>
       <Route path="/" element={<Home />} />
-      <Route index path="posts" element={<Posts pathName={setPath} />} />
+      <Route index path="/posts" element={<Posts pathName={setPath} />} />
       <Route
-        path={`posts/${path}`}
+        path={`/posts/${path}`}
         element={<TherapyDetail therapy={therapy} />}
       />
-      <Route path="services" element={<Services />} />
-      <Route path="contact" element={<Contact />} />
-      <Route path="about" element={<About />} />
+      <Route path="/services" element={<Services />} />
+      <Route path="/contact" element={<Contact />} />
+      <Route path="/about" element={<About />} />
     </Routes>
   );
 };

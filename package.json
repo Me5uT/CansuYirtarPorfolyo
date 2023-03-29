@@ -7,7 +7,7 @@
     "build": "react-scripts build",
     "test": "react-scripts test",
     "eject": "react-scripts eject",
-    "clear": "rm -rf node_modules && rm -rf package-lock.json && rm -rf docs"
+    "clear": "rm -rf node_modules && rm -rf package-lock.json && rm -rf build"
   },
   "dependencies": {
     "@emotion/react": "^11.10.6",

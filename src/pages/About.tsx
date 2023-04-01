@@ -1,7 +1,9 @@
 import React from "react";
 import { AboutMe } from "../contents/AboutMe";
+import profile from "../assets/profil.png";
 
 interface IAboutProps {}
+
 export const About: React.FC<IAboutProps> = () => {
   return (
     <div className="about-container">
@@ -10,7 +12,7 @@ export const About: React.FC<IAboutProps> = () => {
         <div className="col">
           <div className="profile-img__container">
             <img
-              src="https://www.doktorsitesi.com/media/cache/profil_500/uploads/profile_self_image/3868729_782773520.png"
+              src={profile}
               alt="Cansu Yırtar profile"
               className="profile-img"
             />

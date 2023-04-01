@@ -39,4 +39,9 @@ export const servicesContents: IServicesContents[] = [
     ailelerin terapi sürecine dahil olmalarını sağlar.`,
     iconName: "ChildCareIcon",
   },
+  {
+    title: "Psikanalitik Terapi",
+    description: `Psikanalitik terapide, terapist ve hasta arasındaki ilişki çok önemlidir. Terapist, hastanın anlatımlarını dinler ve onları anlamaya çalışırken, hastanın bilinçaltındaki konuları keşfetmeye ve açığa çıkarmaya yardımcı olur. Bu terapi, kişinin geçmişteki deneyimlerinin şimdiki durumuna etkisini araştırır ve bireyin zihinsel işleyişini anlamaya odaklanır.`,
+    iconName: "PsychologyIcon",
+  },
 ];

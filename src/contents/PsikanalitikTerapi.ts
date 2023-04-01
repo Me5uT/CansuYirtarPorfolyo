@@ -12,7 +12,7 @@ export const PsikanalitikTerapi: IContentModel = {
   
   Psikanalitik terapi, bireyin geçmişte yaşadığı travmaları, duygusal çatışmaları ve yaralanmaları ele alarak bireyin şimdiki davranışlarını ve düşüncelerini anlamaya yardımcı olur. Bu terapi yaklaşımı, bireyin kendisini daha iyi anlamasına ve yaşam kalitesini artırmasına yardımcı olur.`,
   tags: ["terapi", "psikanalitik terapi"],
-  lastUpdateDate: new Date("14 Mar 2023"),
+  lastUpdateDate: new Date("25 Mar 2023"),
   pathName: "psikanalitik-terapi",
   featuredPost: true,
 };

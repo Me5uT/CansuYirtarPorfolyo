@@ -9,7 +9,7 @@ export const KarisikKisilikBozuklugu: IContentModel = {
   Karmaşık kişilik bozukluğu, diğer kişilik bozukluğu türlerine göre daha az yaygındır ve kesin nedeni tam olarak bilinmemektedir. Tedavisi zordur ve genellikle uzun süreli psikoterapi ve ilaç tedavisi gerektirir. Tedavi amaçları arasında, kişinin farklı kişilik özelliklerini tanımlama ve anlama, kişilik özellikleri arasındaki çatışmaları ele alma ve duygusal düzenleme becerilerini geliştirme yer alabilir.`,
   tags: ["kişilik bozukluğu", "karışık kişilik bozukluğu"],
 
-  lastUpdateDate: new Date("14 Mar 2023"),
+  lastUpdateDate: new Date("24 Feb 2023"),
   pathName: "karisik-kisilik-bozuklugu",
   featuredPost: true,
 };

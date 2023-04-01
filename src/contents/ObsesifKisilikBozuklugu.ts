@@ -12,7 +12,7 @@ export const ObsesifKisilikBozuklugu: IContentModel = {
   
   Tedavisi, genellikle psikoterapi yoluyla yapılır. Terapi, kişinin esneklik ve kabul edici bir tutum geliştirmesine yardımcı olur, ayrıca mükemmeliyetçilik, kontrol ve düzen ihtiyacıyla baş etmeyi öğretir. Ayrıca, obsesif kişilik bozukluğu olan kişilerde sıklıkla depresyon veya anksiyete gibi diğer psikolojik sorunlar da bulunabilir, bu nedenle ilaç tedavisi de gerekebilir.`,
   tags: ["kişilik bozukluğu", "obsesif kişilik bozukluğu"],
-  lastUpdateDate: new Date("14 Mar 2023"),
+  lastUpdateDate: new Date("20 Feb 2023"),
   pathName: "obsesif-kisilik-bozuklugu",
   featuredPost: true,
 };

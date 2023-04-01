@@ -10,7 +10,7 @@ export const FilialTerapi: IContentModel = {
   
   Filial terapi, lisanslı bir terapist tarafından yürütülür ve çocukların sorunlarının ciddiyetine ve terapi sürecinin nasıl uygulanacağına bağlı olarak değişen sayıda oturum gerektirebilir.`,
   tags: ["terapi", "filial terapi"],
-  lastUpdateDate: new Date("14 Mar 2023"),
+  lastUpdateDate: new Date("13 Mar 2023"),
   pathName: "filial-terapi",
   featuredPost: true,
 };

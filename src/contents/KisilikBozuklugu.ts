@@ -23,7 +23,7 @@ export const KisilikBozuklugu: IContentModel = {
 
   Her kişilik bozukluğu kendine özgü semptomlar gösterir ve farklı tedavi yöntemleri gerektirebilir. Kişilik bozuklukları, çoğu zaman tedavi edilebilir ancak tedavi süreci kişiden kişiye farklılık gösterir ve birçok faktöre bağlıdır.`,
   tags: ["kişilik bozukluğu"],
-  lastUpdateDate: new Date("14 Mar 2023"),
+  lastUpdateDate: new Date("5 Jan 2023"),
   pathName: "kisilik-bozuklugu",
   featuredPost: true,
 };

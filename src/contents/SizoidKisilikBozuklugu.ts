@@ -9,7 +9,7 @@ export const SizoidKisilikBozuklugu: IContentModel = {
   Şizoid kişilik bozukluğu genellikle ergenlik veya erken yetişkinlik döneminde başlar ve erkeklerde kadınlardan daha yaygındır. Kişilik bozuklukları arasında en az yaygın olanlardan biridir. Tedavi edilmesi zordur ve genellikle uzun süreli psikoterapi ve ilaç tedavisi gerektirebilir.`,
   tags: ["kişilik bozukluğu", "şizoid kişilik bozukluğu"],
 
-  lastUpdateDate: new Date("14 Mar 2023"),
+  lastUpdateDate: new Date("14 Jan 2023"),
   pathName: "sizoid-kisilik-bozuklugu",
   featuredPost: true,
 };

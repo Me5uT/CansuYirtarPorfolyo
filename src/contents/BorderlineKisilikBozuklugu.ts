@@ -8,7 +8,7 @@ export const BorderlineKisilikBozuklugu: IContentModel = {
    
    Bu bozukluğun nedenleri tam olarak bilinmemekle birlikte, genetik ve çevresel faktörlerin rol oynadığı düşünülmektedir. Tedavisi genellikle psikoterapi ile yapılmaktadır. Terapi, kişinin duygularını kontrol etme, ilişkilerinde dengeli olma ve kendine zarar verme davranışlarını azaltma becerilerini geliştirmeyi amaçlamaktadır. Bazı durumlarda ilaç tedavisi de önerilebilir.`,
   tags: ["kişilik bozukluğu", "borderline kişilik bozukluğu"],
-  lastUpdateDate: new Date("14 Mar 2023"),
+  lastUpdateDate: new Date("9 Feb 2023"),
   pathName: "borderline-kisilik-bozuklugu",
   featuredPost: true,
 };

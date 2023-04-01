@@ -10,7 +10,7 @@ export const OnlineTerapi: IContentModel = {
   
   Online terapi, bir lisanslı terapist tarafından yürütülmeli ve bireylerin mahremiyetini korumak için uygun güvenlik önlemleri alınmalıdır. Bu nedenle, online terapi almadan önce, terapistin lisanslı olduğundan ve bu alanda deneyimli olduğundan emin olunması önemlidir.`,
   tags: ["terapi", "online terapi"],
-  lastUpdateDate: new Date("14 Mar 2023"),
+  lastUpdateDate: new Date("18 Mar 2023"),
   pathName: "online-terapi",
   featuredPost: true,
 };

@@ -11,7 +11,7 @@ export const CekingenKisilikBozuklugu: IContentModel = {
   Tedavisi, genellikle psikoterapi yoluyla yapılır. Terapi, kişinin özgüvenini artırmayı, sosyal becerilerini geliştirmeyi ve rahatsızlık hissettiği sosyal etkileşimlerde daha rahat davranmayı hedefler. Bazen ilaç tedavisi de önerilebilir, ancak terapi genellikle birincil tedavi yöntemidir.
   `,
   tags: ["kişilik bozukluğu", "çekingen kişilik bozukluğu"],
-  lastUpdateDate: new Date("14 Mar 2023"),
+  lastUpdateDate: new Date("15 Feb 2023"),
   pathName: "cekingen-kisilik-bozuklugu",
   featuredPost: true,
 };

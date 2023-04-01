@@ -12,7 +12,7 @@ export const PsikoTerapi: IContentModel = {
   
   Psikoterapi süresi, kişisel ihtiyaçlara ve hedeflere bağlı olarak değişebilir. Bazı bireyler, birkaç seansta hedeflerine ulaşabilirken, diğerleri için daha uzun süreli bir terapi gerekli olabilir. Ayrıca, psikoterapi bireysel, grup veya aile terapisi olarak da uygulanabilir.`,
   tags: ["psikoterapi"],
-  lastUpdateDate: new Date("14 Mar 2023"),
+  lastUpdateDate: new Date("1 Apr 2023"),
   pathName: "psikoterapi",
   featuredPost: true,
 };

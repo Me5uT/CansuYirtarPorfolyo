@@ -10,7 +10,7 @@ export const BagimliKisilikBozuklugu: IContentModel = {
     
     Tedavisi genellikle psikoterapi ve bazen de ilaç tedavisi ile mümkündür. Terapi, kişinin kendine güvenini artırmayı, kendi başına karar verme becerisini geliştirmeyi ve başkalarının onayına ihtiyaç duyma davranışını azaltmayı amaçlamaktadır.`,
   tags: ["kişilik bozukluğu", "bağımlı kişilik bozukluğu"],
-  lastUpdateDate: new Date("14 Mar 2023"),
+  lastUpdateDate: new Date("27 Feb 2023"),
   pathName: "bagimli-kisilik-bozuklugu",
   featuredPost: true,
 };

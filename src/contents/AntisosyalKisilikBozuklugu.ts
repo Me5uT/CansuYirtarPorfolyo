@@ -11,7 +11,7 @@ export const AntiSosyalKisilikBozuklugu: IContentModel = {
   Bu bozukluğu olan insanlar, toplumla uyumlu bir yaşam sürdürmek için terapi veya ilaç tedavisi gibi çeşitli tedavi yöntemlerine ihtiyaç duyabilirler. Ancak, birçok kişi bu bozukluğun tedavi edilemez olduğuna inanmaktadır.`,
   tags: ["kişilik bozukluğu", "anti-sosyal kişilik bozukluğu"],
 
-  lastUpdateDate: new Date("14 Mar 2023"),
+  lastUpdateDate: new Date("1 Feb 2023"),
   pathName: "antisosyal-kisilik-bozuklugu",
   featuredPost: true,
 };

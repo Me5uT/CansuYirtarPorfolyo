@@ -14,6 +14,13 @@ export const PostCard: React.FC<IPostCardProps> = ({
   title,
   lastUpdateDate,
 }) => {
+  const [tagNames, setTagNames] = React.useState<string>("");
+
+  React.useEffect(() => {
+    const tag = GeneralServices.generateHashtags(tags);
+    setTagNames(tag);
+  }, []);
+
   return (
     <article className="post-card">
       <span className="post-card-inner" onClick={onClick}>
@@ -22,11 +29,7 @@ export const PostCard: React.FC<IPostCardProps> = ({
         </span>
         <span className="h4 post-card-title">{title}</span>
 
-        {
-          <span className="post-card-info post-card-tags">{`${tags
-            .map((tag) => `#${tag}`)
-            .join(", ")}	`}</span>
-        }
+        {<span className="post-card-info post-card-tags">{`${tagNames}`}</span>}
       </span>
     </article>
   );

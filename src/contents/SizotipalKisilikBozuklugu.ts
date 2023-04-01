@@ -11,7 +11,7 @@ export const SizotipalKisilikBozuklugu: IContentModel = {
   Şizotipal kişilik bozukluğu, genellikle ergenlik veya erken yetişkinlik döneminde başlar ve genellikle erkeklerde kadınlardan daha yaygındır. Tedavisi, uzun süreli psikoterapi ve ilaç tedavisi gerektirebilir.`,
   tags: ["kişilik bozukluğu", "şizotipal kişilik bozukluğu"],
 
-  lastUpdateDate: new Date("14 Mar 2023"),
+  lastUpdateDate: new Date("17 Jan 2023"),
   pathName: "sizotipal-kisilik-bozuklugu",
   featuredPost: true,
 };

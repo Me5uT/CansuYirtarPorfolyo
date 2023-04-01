@@ -9,7 +9,7 @@ export const ParanoidKisilikBozuklugu: IContentModel = {
   Paranoid kişilik bozukluğu genellikle erken yaşlarda başlar ve tedavi edilmezse yaşam boyu devam edebilir. Tedavisi, psikoterapi, ilaç tedavisi veya bir kombinasyonu gibi çeşitli yaklaşımlar kullanılarak yapılabilir. Psikoterapinin hedefleri arasında, kişinin gerçekliğe uygunluğunu arttırmak, başkalarına yönelik güvensizlik ve şüphe duygularını azaltmak ve sosyal ilişkilerini geliştirmek yer alır.`,
   tags: ["kişilik bozukluğu", "paranoid kişilik bozukluğu"],
 
-  lastUpdateDate: new Date("14 Mar 2023"),
+  lastUpdateDate: new Date("10 Jan 2023"),
   pathName: "paranoid-kisilik-bozuklugu",
   featuredPost: true,
 };

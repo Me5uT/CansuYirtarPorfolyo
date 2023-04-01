@@ -10,7 +10,7 @@ export const PsikodinamikTerapi: IContentModel = {
   
   Psikodinamik terapi, bireyin depresyon, anksiyete, kaygı, düşük özsaygı ve benlik saygısı sorunları gibi birçok psikolojik sorunu tedavi etmek için kullanılır. Bu terapi yaklaşımı, bireyin kendini daha iyi anlamasına, kendine güvenini artırmasına ve yaşam kalitesini artırmasına yardımcı olur.`,
   tags: ["terapi", "psikodinamik terapi"],
-  lastUpdateDate: new Date("14 Mar 2023"),
+  lastUpdateDate: new Date("29 Mar 2023"),
   pathName: "psikodinamik-terapi",
   featuredPost: true,
 };

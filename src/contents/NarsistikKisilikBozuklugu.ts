@@ -12,7 +12,7 @@ export const NarsistikKisilikBozuklugu: IContentModel = {
   
   Tedavisi, genellikle psikoterapi yoluyla yapılır. Terapi, kişinin başkalarıyla daha sağlıklı bir şekilde ilişki kurmayı, empati kurmayı ve benmerkezci düşüncelerden kurtulmayı hedefler. Ancak, narsistik kişilik bozukluğu olan bazı insanlar terapiye ihtiyaç duymazlar veya yardım aramazlar, bu da tedaviyi zorlaştırabilir.`,
   tags: ["kişilik bozukluğu", "narsistik kişilik bozukluğu"],
-  lastUpdateDate: new Date("14 Mar 2023"),
+  lastUpdateDate: new Date("21 Feb 2023"),
   pathName: "narsistik-kisilik-bozuklugu",
   featuredPost: true,
 };

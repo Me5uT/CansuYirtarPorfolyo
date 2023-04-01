@@ -13,6 +13,24 @@ export class GeneralServices {
     return Object.keys(uniqueStrings);
   }
 
+  static generateHashtags(tagNameList: string[]) {
+    return tagNameList
+      .map(
+        (tag: string) =>
+          "#" +
+          tag
+            .toLowerCase()
+            .replace(/\s+/g, "") // Remove whitespaces
+            .replace(/ş/g, "s") // Replace 'ş' with 's'
+            .replace(/ğ/g, "g") // Replace 'ğ' with 'g'
+            .replace(/ö/g, "o") // Replace 'ö' with 'o'
+            .replace(/ç/g, "c") // Replace 'ç' with 'c'
+            .replace(/ü/g, "u") // Replace 'ü' with 'u'
+            .replace(/ı/g, "i") // Replace 'ü' with 'u'
+      )
+      .join(", ");
+  }
+
   static findTherapyByPath(path: string) {
     return contents.find((content) => content.pathName === path);
   }

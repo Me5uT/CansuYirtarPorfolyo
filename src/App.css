@@ -112,6 +112,7 @@ body {
   font-family: var(--font-family-heavy);
   font-size: var(--heading-one);
   color: var(--title-color);
+  text-align: center;
 }
 @media (min-width: 768px) {
   .title {
@@ -460,6 +461,19 @@ footer {
   flex-direction: column;
   background-color: var(--footer-bg);
   justify-content: flex-end;
+  margin-top: 20px;
+  padding: 10px 0px;
+}
+footer p {
+  color: var(--body-text-color);
+  padding: unset;
+  margin: unset;
+}
+footer svg {
+  color: var(--body-text-color);
+}
+footer a {
+  padding: 5px 0px;
 }
 @media (min-width: 768px) {
   footer {
@@ -933,6 +947,14 @@ p {
 .MuiMenu-paper ul {
   gap: 0;
   background-color: var(--footer-bg);
+}
+
+.leaflet-bar {
+  border: unset !important;
+}
+
+.leaflet-control-attribution {
+  display: none;
 }
 
 /*# sourceMappingURL=App.css.map */

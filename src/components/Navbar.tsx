@@ -14,8 +14,9 @@ import Tooltip from "@mui/material/Tooltip";
 import React from "react";
 import { useNavigate } from "react-router-dom";
 import logo from "../assets/logo.svg";
+import { IRouteModel } from "../models/RouteModels";
 
-const pages = [
+const pages: IRouteModel[] = [
   { text: "Anasayfa", pathName: "/" },
   { text: "Bloğum", pathName: "/posts" },
   { text: "Hizmetlerimiz", pathName: "/services" },

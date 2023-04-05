@@ -1,6 +1,7 @@
 import CallIcon from "@mui/icons-material/Call";
 import ForwardToInboxIcon from "@mui/icons-material/ForwardToInbox";
 import InstagramIcon from "@mui/icons-material/Instagram";
+import LocationOnIcon from "@mui/icons-material/LocationOn";
 import Avatar from "@mui/material/Avatar";
 import Box from "@mui/material/Box";
 import Button from "@mui/material/Button";
@@ -8,12 +9,10 @@ import Link from "@mui/material/Link";
 import React from "react";
 import { useNavigate } from "react-router-dom";
 import footerLogo from "../assets/footerLogo.png";
-import { IRouteModel } from "../models/RouteModels";
 import { Map } from "../components/Map";
-import LocationOnIcon from "@mui/icons-material/LocationOn";
+import { IRouteModel } from "../models/RouteModels";
 
 interface IFooterProps {}
-const currYear = new Date().getFullYear();
 
 const pages: IRouteModel[] = [
   { text: "Anasayfa", pathName: "/" },
@@ -23,48 +22,7 @@ const pages: IRouteModel[] = [
 ];
 
 export const Footer: React.FC<IFooterProps> = () => {
-  const [anchorElNav, setAnchorElNav] = React.useState<null | HTMLElement>(
-    null
-  );
-
-  const [darkMode, setDarkMode] = React.useState<boolean>(false);
-
   const navigate = useNavigate();
-
-  React.useEffect(() => {
-    const currentTheme = localStorage.getItem("theme");
-    if (currentTheme) {
-      if (currentTheme === "dark") {
-        document.documentElement.setAttribute("data-theme", "dark");
-        setDarkMode(true);
-      } else {
-        document.documentElement.removeAttribute("data-theme");
-        setDarkMode(false);
-      }
-    }
-  }, []);
-
-  const changeTheme = () => {
-    if (darkMode) {
-      document.documentElement.removeAttribute("data-theme");
-      setDarkMode(false);
-
-      localStorage.setItem("theme", "light");
-    } else {
-      document.documentElement.setAttribute("data-theme", "dark");
-      setDarkMode(true);
-
-      localStorage.setItem("theme", "dark");
-    }
-  };
-
-  const handleOpenNavMenu = (event: React.MouseEvent<HTMLElement>) => {
-    setAnchorElNav(event.currentTarget);
-  };
-
-  const handleCloseNavMenu = () => {
-    setAnchorElNav(null);
-  };
 
   return (
     <footer>

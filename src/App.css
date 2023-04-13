@@ -269,14 +269,10 @@ h4 a {
 }
 
 img {
-  max-width: 100%;
-  width: 100%;
   margin: 0 auto;
 }
 @media (min-width: 768px) {
   img {
-    max-width: 120%;
-    width: 120%;
     margin: 0 -10%;
   }
 }
@@ -843,6 +839,41 @@ p {
   }
 }
 
+.home-container {
+  display: flex;
+  flex-direction: column;
+}
+
+.home-inner-container {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+@media (min-width: 1024px) {
+  .home-inner-container {
+    flex: 1;
+  }
+}
+
+.home-img__container {
+  display: flex;
+}
+@media (min-width: 1024px) {
+  .home-img__container {
+    flex: 1;
+  }
+}
+
+.home-description-container {
+  display: flex;
+}
+@media (min-width: 1024px) {
+  .home-description-container {
+    flex: 1;
+  }
+}
+
 .home-description {
   text-align: center;
   color: var(--body-text-color);
@@ -955,6 +986,10 @@ p {
 
 .leaflet-control-attribution {
   display: none;
+}
+
+.callme-button svg {
+  padding-right: 10px;
 }
 
 /*# sourceMappingURL=App.css.map */

@@ -15,6 +15,7 @@ import React from "react";
 import { useNavigate } from "react-router-dom";
 import logo from "../assets/logo.svg";
 import { IRouteModel } from "../models/RouteModels";
+import CallIcon from "@mui/icons-material/Call";
 
 const pages: IRouteModel[] = [
   { text: "Anasayfa", pathName: "/" },
@@ -104,6 +105,7 @@ export const Navbar: React.FC<INavbarProps> = () => {
                 <MenuIcon sx={{ color: darkMode ? "white" : "black" }} />
               </Tooltip>
             </IconButton>
+
             <Menu
               id="menu-appbar"
               anchorEl={anchorElNav}
@@ -166,6 +168,18 @@ export const Navbar: React.FC<INavbarProps> = () => {
             ))}
           </Box>
 
+          <Box sx={{ flexGrow: 1 }}>
+            <Tooltip title="Aramak için tıklayın">
+              <IconButton
+                className="callme-button"
+                href="tel:05534701173"
+                sx={{ color: darkMode ? "white" : "black" }}
+              >
+                <CallIcon />
+                {"Ücretsiz Bilgi Almak için Arayın"}
+              </IconButton>
+            </Tooltip>
+          </Box>
           <Box sx={{ flexGrow: 0 }}>
             <Tooltip title="Theme Settings">
               <IconButton

@@ -81,6 +81,7 @@ body {
   --heart-accent-color: var(--primary-400);
   --alert-bg: #fdecc6;
   --navbar-bg: var(--primary-200);
+  --detail-btn-bg: var(--primary-600)
   /* // Font sizes */
   --big-header: 4.209rem;
   --heading-one: 3.157rem;
@@ -116,6 +117,7 @@ body {
   --search-bar-placeholder: var(--white);
   --heart-accent-color: var(--secondary-400);
   --navbar-bg: var();
+  --detail-btn-bg: var(--secondary-500)
 }
 
 .title {
@@ -123,9 +125,7 @@ body {
   font-size: var(--heading-one);
   color: var(--title-color);
   text-align: center;
-  @media (min-width: 768px) {
-    font-size: var(--big-header);
-  }
+  
 }
 
 h1,
@@ -135,6 +135,7 @@ h4 {
   color: var(--body-text-color);
   font-weight: normal;
   margin: 0 0 1.38rem;
+  text-align: center;
 }
 h6 {
   color: var(--body-text-color);
@@ -881,14 +882,17 @@ p {
 
 .home-img__container {
   display: flex;
+  height: 75%;
   @media (min-width: 1024px) {
     flex: 1;
+    margin-right: 10px;
   }
 }
 .home-description-container {
   display: flex;
   @media (min-width: 1024px) {
     flex: 1;
+    margin-left: 10px;
   }
 }
 
@@ -939,43 +943,6 @@ p {
   }
 }
 
-.service-cards {
-  display: flex;
-  flex-direction: column;
-  border: "10px solid darkgreen";
-  img {
-    height: 120px;
-    width: 120px;
-  }
-}
-
-.service-card {
-  display: flex;
-  flex-direction: column;
-  border: 1px solid var(--title-color);
-  border-radius: 20px;
-  padding: 20px;
-  margin: 10px;
-  p {
-    color: var(--body-text-color);
-  }
-  h3 {
-    margin: 0;
-  }
-  svg {
-    color: var(--body-text-color);
-  }
-}
-.service-card-title {
-  display: flex;
-  flex-direction: row;
-  justify-content: center;
-  align-items: center;
-}
-.service-card-title * {
-  margin: 0 10px;
-}
-
 .muiBtn {
   color: var(--body-text-color) !important;
   font-family: var(--font-family-light) !important;
@@ -1010,5 +977,53 @@ p {
 .callme-button {
   svg {
     padding-right: 10px;
+  
+  }
+}
+
+.callme-button{
+  font-size: 22px !important;
+}
+
+.service-cards {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+  * {
+    margin-right: 15px;
+    margin-bottom: 15px;
+  }
+}
+
+.service-card {
+  height: unset !important;
+}
+
+.detailbtn {
+  button {
+    background-color: var(--detail-btn-bg) !important;
+    color: var(--body-text-color);
+    padding: 12px;
+    border-radius: 10px !important;
+    border: 1px solid var(--body-text-color);
+  }
+
+  span{
+   display: none;
+ }
+}
+
+
+.MuiCardContent-root {
+  p {
+   
+    
+    overflow: hidden;
+    text-overflow: ellipsis;
+    display: -webkit-box;
+    -webkit-line-clamp: 5;
+    -webkit-box-orient: vertical;
   }
 }

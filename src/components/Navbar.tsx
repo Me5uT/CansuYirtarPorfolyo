@@ -19,7 +19,7 @@ import CallIcon from "@mui/icons-material/Call";
 
 const pages: IRouteModel[] = [
   { text: "Anasayfa", pathName: "/" },
-  { text: "Bloğum", pathName: "/posts" },
+  // { text: "Bloğum", pathName: "/posts" },
   { text: "Hizmetlerimiz", pathName: "/services" },
   { text: "İletişim", pathName: "/contact" },
   { text: "Hakkımda", pathName: "/about" },

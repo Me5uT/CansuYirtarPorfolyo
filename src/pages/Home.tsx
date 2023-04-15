@@ -6,6 +6,7 @@ interface IHomeProps {}
 export const Home: React.FC<IHomeProps> = () => {
   return (
     <div className="home-container">
+      <br></br>
       <div className="home-title">
         <h1 className="title">Cansu Yırtar</h1>
       </div>

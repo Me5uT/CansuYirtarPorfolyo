@@ -1,24 +1,42 @@
 import React from "react";
 import { ServiceIcon } from "../components/ServiceIcon";
-import { servicesContents } from "../contents/ServicesContents";
+import {
+  IServicesContents,
+  psikoThrepahyDescription,
+  servicesContents,
+} from "../contents/ServicesContents";
+import { ServiceCard } from "../components/ServiceCard";
+import { useNavigate } from "react-router-dom";
 
 interface IServicesProps {}
 
 export const Services: React.FC<IServicesProps> = () => {
+  const navigate = useNavigate();
+
   return (
     <div className="services-container">
-      <h1 className="title">Hizmetlerimiz</h1>
-
+      <br></br>
+      <div className="psikoterapi-container">
+        <h1 className="psikoterapi-title">Psikoterapi Nedir ?</h1>
+        <p className="psikoterapi-description">{psikoThrepahyDescription}</p>
+      </div>
+      <br></br>
+      <hr></hr>
+      <br></br>
+      <div>
+        <h1 className="psikoterapi-title">Hizmetlerimiz</h1>
+      </div>
       <div className="service-cards">
-        {servicesContents.map((content) => {
+        {servicesContents.map((content: IServicesContents) => {
           return (
-            <div className="service-card">
-              <div className="service-card-title">
-                <h3>{content.title}</h3>
-                {ServiceIcon(content.iconName)}
-              </div>
-              <p>&nbsp;{content.description}</p>
-            </div>
+            <ServiceCard
+              title={content.title}
+              imgUrl={content.imgUrl}
+              description={content.description}
+              onClick={() => {
+                navigate(content.imgUrl);
+              }}
+            />
           );
         })}
       </div>

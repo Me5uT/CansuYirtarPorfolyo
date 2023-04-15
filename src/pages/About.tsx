@@ -7,6 +7,7 @@ interface IAboutProps {}
 export const About: React.FC<IAboutProps> = () => {
   return (
     <div className="about-container">
+      <br></br>
       <h1 className="title">Hakkımda</h1>
       <div className="row">
         <div className="col">

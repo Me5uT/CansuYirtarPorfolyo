@@ -7,6 +7,7 @@ interface IContactProps {}
 export const Contact: React.FC<IContactProps> = () => {
   return (
     <div className="contact-container">
+      <br></br>
       <h1 className="title">Benimle İletişime Geçin</h1>
 
       <div className="contact-cards">

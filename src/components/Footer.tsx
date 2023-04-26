@@ -72,7 +72,12 @@ export const Footer: React.FC<IFooterProps> = () => {
             <Button href="mailto:cansu.yirtar@gmail.com">
               <ForwardToInboxIcon />
             </Button>
-            <p>cansu.yirtar@gmail.com</p>
+            <Button
+              href="mailto:cansu.yirtar@gmail.com"
+              sx={{ textTransform: "none" }}
+            >
+              <p>cansu.yirtar@gmail.com</p>
+            </Button>
           </Box>
           <Box
             sx={{
@@ -82,13 +87,21 @@ export const Footer: React.FC<IFooterProps> = () => {
             }}
           >
             <Button
-              href="https://www.instagram.com/psikologcansuyirtar/"
+              href="https://www.instagram.com/psk.cansuyirtar/"
               target="_blank"
               rel="noreferrer"
             >
               <InstagramIcon />
             </Button>
-            <p>@psikologcansuyirtar</p>
+
+            <Button
+              href="https://www.instagram.com/psk.cansuyirtar/"
+              target="_blank"
+              rel="noreferrer"
+              sx={{ textTransform: "none" }}
+            >
+              <p>@psk.cansuyirtar</p>
+            </Button>
           </Box>
           <Box
             sx={{
@@ -100,7 +113,9 @@ export const Footer: React.FC<IFooterProps> = () => {
             <Button href="tel:05534701173">
               <CallIcon />
             </Button>
-            <p>05534701173</p>
+            <Button href="tel:05534701173">
+              <p>05534701173</p>
+            </Button>
           </Box>
           <Box
             sx={{
@@ -108,12 +123,23 @@ export const Footer: React.FC<IFooterProps> = () => {
               flexDirection: "row",
             }}
           >
-            <Button>
+            {/* Konum daha sonra değişecek */}
+            <Button
+              href="https://www.google.com/maps/place/41%C2%B003'16.6%22N+28%C2%B059'14.3%22E/@41.0546161,28.987216,20.13z/data=!4m4!3m3!8m2!3d41.054613!4d28.987294?hl=tr-TR"
+              target="_blank"
+              rel="noreferrer"
+            >
               <LocationOnIcon />
             </Button>
-            <p style={{ wordWrap: "break-word" }}>
-              Halaskargazi Cd. Şimşek Apt D:125/2, 34381 Şişli/İstanbul
-            </p>
+            <Button
+              href="https://www.google.com/maps/place/41%C2%B003'16.6%22N+28%C2%B059'14.3%22E/@41.0546161,28.987216,20.13z/data=!4m4!3m3!8m2!3d41.054613!4d28.987294?hl=tr-TR"
+              target="_blank"
+              rel="noreferrer"
+            >
+              <p style={{ wordWrap: "break-word", textTransform: "none" }}>
+                Halaskargazi Cd. Şimşek Apt D:125/2, 34381 Şişli/İstanbul
+              </p>
+            </Button>
           </Box>
         </Box>
 

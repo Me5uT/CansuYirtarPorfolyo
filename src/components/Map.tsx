@@ -4,7 +4,7 @@ import { MapContainer, Marker, Popup, TileLayer } from "react-leaflet";
 import MarkIcon from "../assets/marker-icon.png";
 
 // Persona Psikoloji Lat,Lng
-const position = [41.04677, 28.986501];
+const position = [41.054613, 28.987294];
 
 export const Map: React.FC = () => {
   const icon = L.icon({ iconUrl: MarkIcon, iconSize: [25, 41] });

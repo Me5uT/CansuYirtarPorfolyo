@@ -2,6 +2,7 @@ import React from "react";
 import ForwardToInboxIcon from "@mui/icons-material/ForwardToInbox";
 import InstagramIcon from "@mui/icons-material/Instagram";
 import CallIcon from "@mui/icons-material/Call";
+import { DoktorTakvimiWidget } from "../components/DoktorTakvimiWidget";
 interface IContactProps {}
 
 export const Contact: React.FC<IContactProps> = () => {
@@ -28,6 +29,9 @@ export const Contact: React.FC<IContactProps> = () => {
           <CallIcon />
           <p>Telefon</p>
         </a>
+      </div>
+      <div className="doktor-widget">
+        <DoktorTakvimiWidget />
       </div>
     </div>
   );
